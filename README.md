@@ -11,4 +11,5 @@ https://alexandresanlim.github.io/MobileApp.SimpleLandingPage.Template/
 ✅ Link to App Store and Google Play</br>
 ✅ Screenshots panel</br>
 ✅ Benefit panel</br>
+✅ Fast load</br>
 ✅ Enjoy!
