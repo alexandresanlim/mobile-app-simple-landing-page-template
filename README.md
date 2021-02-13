@@ -5,7 +5,7 @@ https://alexandresanlim.github.io/MobileApp.SimpleLandingPage.Template/
 
 ✅ HTML5 and Bootstrap only</br>
 ✅ Easy to custom</br>
-✅ Responsible</br>
-✅ Link to AppStore and GooglePlay</br>
+✅ Responsive</br>
+✅ Link to App Store and Google Play</br>
 ✅ Screenshots panel</br>
 ✅ Enjoy!
