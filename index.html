@@ -12,15 +12,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>App Name</title>
+
+    <style>
+      body {
+	background: linear-gradient(-45deg, #110b0d, #FF4081, #3F51B5, #303F9F);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+    </style>
   </head>
   <body class="bg-light">
 
     <main class="container">
-        <div class="d-flex p-3 bg-body my-3 rounded shadow-sm">
+        <div class="d-flex p-3 bg-transparent text-white my-3 rounded shadow-sm">
             <div class="row">
 
               <!-- SET YOUR LOGO HERE -->
-                <figure class="figure col-lg-3"><img src="https://via.placeholder.com/512x512.png/bdc3c7/FFFFFF/?text=APP%20LOGO" class="figure-img img-fluid rounded"></figure>
+                <figure class="figure col-lg-3"><img src="https://via.placeholder.com/512x512.png/000000/FFFFFF/?text=APP%20LOGO" class="figure-img img-fluid rounded"></figure>
 
                 <div class="col-lg-9">
 
@@ -81,26 +101,23 @@
             </button>
           </div>
       
-        <div class="my-3 p-3 bg-body rounded shadow-sm">
-          <h2 class="pb-2 mb-0">Screenshots</h2>
+        <div class="my-3 p-3 bg-transparent rounded shadow-sm">
+          <h1 class="pb-2 mb-0 text-white">Screenshots</h1>
 
           <!-- SET YOUR SCREENSHOTS HERE -->
           <div class="row align-items-center">
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/bdc3c7/FFFFFF/?text=SCREENSHOT%201" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/bdc3c7/FFFFFF/?text=SCREENSHOT%202" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/bdc3c7/FFFFFF/?text=SCREENSHOT%203" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/bdc3c7/FFFFFF/?text=SCREENSHOT%204" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%201" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%202" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%203" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="https://via.placeholder.com/1242x2208.png/000000/FFFFFF/?text=SCREENSHOT%204" class="figure-img img-fluid rounded"></figure>
           </div>
 
         </div>
 
       </main>
 
-      <footer class="text-muted py-5 bg-body">
-        <div class="container">
-          <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-          </p>
+      <footer class="text-muted py-5 bg-transparent">
+        <div class="container text-white">
          
           <p>Created with love from Brazil by <a href="https://github.com/alexandresanlim">Alexandre Sanlim</a> fork on <a href="https://github.com/alexandresanlim/MobileApp.SimpleLandingPage.Template">Github</a>.</p>
         </div>
