@@ -13,11 +13,12 @@
 
     <title>App Name</title>
 
+    <!--add animation: gradient 60s ease infinite; to animation gradient, custom gradient here: https://cssgradient.io/-->
     <style>
       body {
-	background: linear-gradient(-45deg, #110b0d, #FF4081, #3F51B5, #303F9F);
+        background: rgb(255,64,129);
+background: linear-gradient(150deg, rgba(255,64,129,1) 0%, rgba(63,81,181,1) 21%, rgba(48,63,159,1) 52%);
 	background-size: 400% 400%;
-	animation: gradient 60s ease infinite;
 }
 
 @keyframes gradient {
@@ -36,7 +37,7 @@
   <body class="bg-light">
 
     <main class="container">
-        <div class="d-flex p-3 bg-transparent text-white my-3 rounded shadow-sm">
+        <div class="d-flex p-3 text-white my-3 rounded">
             <div class="row">
 
               <!-- SET YOUR LOGO HERE -->
@@ -53,7 +54,7 @@
 
         </div>
 
-        <div id="myCarousel" class="carousel slide my-3 bg-body rounded shadow-sm" data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel slide my-3 rounded" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -101,7 +102,7 @@
             </button>
           </div>
       
-        <div class="my-3 p-3 bg-transparent rounded shadow-sm">
+        <div class="my-3 p-3 rounded">
           <h1 class="pb-2 mb-0 text-white">Screenshots</h1>
 
           <!-- SET YOUR SCREENSHOTS HERE -->
@@ -116,7 +117,7 @@
 
       </main>
 
-      <footer class="text-muted py-5 bg-transparent">
+      <footer class="text-muted py-5" style="background-color: black;">
         <div class="container text-white">
          
           <p>Created with love from Brazil by <a href="https://github.com/alexandresanlim">Alexandre Sanlim</a> fork on <a href="https://github.com/alexandresanlim/MobileApp.SimpleLandingPage.Template">Github</a>.</p>
