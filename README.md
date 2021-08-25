@@ -1,6 +1,6 @@
 
 # Welcome!
-### It's a simple landing page template to mobile apps
+### It's a simple landing page template for mobile apps
 
 ![alexandresanlim github io_MobileApp SimpleLandingPage Template_](https://user-images.githubusercontent.com/5353685/120659699-fb795400-c45c-11eb-8aa7-d321aad6541c.png)
 
