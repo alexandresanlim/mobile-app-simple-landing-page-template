@@ -6,7 +6,7 @@
 
 
 Live Preview:
-https://alexandresanlim.github.io/MobileApp.SimpleLandingPage.Template/
+https://alexandresanlim.github.io/mobile-app-simple-landing-page-template/
 
 ## 🎉 Features
 
